@@ -1,0 +1,5 @@
+C:\Users\S.Ghiasvand\source\repos\SendMessageWithTCPIP\TCPServer\TCPServer\obj\Debug\net6.0-windows\TCPServer.csproj.AssemblyReference.cache
+C:\Users\S.Ghiasvand\source\repos\SendMessageWithTCPIP\TCPServer\TCPServer\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\S.Ghiasvand\source\repos\SendMessageWithTCPIP\TCPServer\TCPServer\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\S.Ghiasvand\source\repos\SendMessageWithTCPIP\TCPServer\TCPServer\obj\Debug\net6.0-windows\TCPServer_MarkupCompile.cache
+C:\Users\S.Ghiasvand\source\repos\SendMessageWithTCPIP\TCPServer\TCPServer\obj\Debug\net6.0-windows\TCPServer_MarkupCompile.lref
