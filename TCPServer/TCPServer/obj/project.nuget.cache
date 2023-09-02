@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5sTcpSiGsaSphjTKYHxn4Lt2A1wdN7FVjhpm4CgC0tiz1YxDgaZbd4y4ZAQL6SI0Cnj4OjN26CCoJaFUbEq5Zw==",
+  "dgSpecHash": "XMiJVGEwVoVxCNqDrF0OyZ+Kq7YerdDt4gurRIFYH4rDvZASO28gjbcvyRKQ2o0oogY1BlSzMYRIMuonoyGgQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sajjad\\Source\\Repos\\SendMessageWithTCPIP\\TCPServer\\TCPServer\\TCPServer.csproj",
+  "projectFilePath": "C:\\Users\\sajjad\\source\\repos\\SendMessageWithTCPIP\\TCPServer\\TCPServer\\TCPServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sajjad\\.nuget\\packages\\supersimpletcp\\3.0.13\\supersimpletcp.3.0.13.nupkg.sha512"
   ],

@@ -1,0 +1,6 @@
+C:\Users\sajjad\OneDrive\Desktop\TCP Client\TCPClient.exe
+C:\Users\sajjad\OneDrive\Desktop\TCP Client\TCPClient.dll
+C:\Users\sajjad\OneDrive\Desktop\TCP Client\TCPClient.deps.json
+C:\Users\sajjad\OneDrive\Desktop\TCP Client\TCPClient.runtimeconfig.json
+C:\Users\sajjad\OneDrive\Desktop\TCP Client\TCPClient.pdb
+C:\Users\sajjad\OneDrive\Desktop\TCP Client\SuperSimpleTcp.dll

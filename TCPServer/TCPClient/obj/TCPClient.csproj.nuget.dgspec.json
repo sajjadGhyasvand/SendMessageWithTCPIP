@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sajjad\\Source\\Repos\\SendMessageWithTCPIP\\TCPServer\\TCPClient\\TCPClient.csproj": {}
+    "C:\\Users\\sajjad\\source\\repos\\SendMessageWithTCPIP\\TCPServer\\TCPClient\\TCPClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sajjad\\Source\\Repos\\SendMessageWithTCPIP\\TCPServer\\TCPClient\\TCPClient.csproj": {
+    "C:\\Users\\sajjad\\source\\repos\\SendMessageWithTCPIP\\TCPServer\\TCPClient\\TCPClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sajjad\\Source\\Repos\\SendMessageWithTCPIP\\TCPServer\\TCPClient\\TCPClient.csproj",
+        "projectUniqueName": "C:\\Users\\sajjad\\source\\repos\\SendMessageWithTCPIP\\TCPServer\\TCPClient\\TCPClient.csproj",
         "projectName": "TCPClient",
-        "projectPath": "C:\\Users\\sajjad\\Source\\Repos\\SendMessageWithTCPIP\\TCPServer\\TCPClient\\TCPClient.csproj",
+        "projectPath": "C:\\Users\\sajjad\\source\\repos\\SendMessageWithTCPIP\\TCPServer\\TCPClient\\TCPClient.csproj",
         "packagesPath": "C:\\Users\\sajjad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sajjad\\Source\\Repos\\SendMessageWithTCPIP\\TCPServer\\TCPClient\\obj\\",
+        "outputPath": "C:\\Users\\sajjad\\source\\repos\\SendMessageWithTCPIP\\TCPServer\\TCPClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

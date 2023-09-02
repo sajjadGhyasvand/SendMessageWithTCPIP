@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\sajjad\Source\Repos\SendMessageWithTCPIP\TCPServer\TCPClient\obj\Debug\net6.0-windows\
+C:\Users\sajjad\source\repos\SendMessageWithTCPIP\TCPServer\TCPClient\obj\Debug\net6.0-windows\
 TCPClient
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\sajjad\Source\Repos\SendMessageWithTCPIP\TCPServer\TCPClient\App.xaml
+C:\Users\sajjad\source\repos\SendMessageWithTCPIP\TCPServer\TCPClient\App.xaml
 11407045341
 
 51288232715
 195-1989028484
 MainWindow.xaml;
 
-True
+False
 
