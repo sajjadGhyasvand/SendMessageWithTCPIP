@@ -29,8 +29,12 @@ namespace ServerTCP
         SimpleTcpServer server;
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            server = new SimpleTcpServer((long.Parse(textIP.Text)).ToString(), Convert.ToInt32(txtPort.Text));
             Thread.Sleep(2000);
             server.Start();
+            server.Events.ClientConnected += Events_ClientConnected;
+            server.Events.ClientDisconnected += Events_ClientDisconnected;
+            server.Events.DataReceived += Events_DataRecieved;
             textInfo.Document.Blocks.Add(new Paragraph(new Run($"Starting...{Environment.NewLine}")));
             BTNStart.IsEnabled = false;
             BTNSend.IsEnabled = true;
@@ -74,10 +78,6 @@ namespace ServerTCP
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             BTNSend.IsEnabled = false;
-            server=new SimpleTcpServer(textIP.Text);
-            server.Events.ClientConnected += Events_ClientConnected;
-            server.Events.ClientDisconnected += Events_ClientDisconnected;
-            server.Events.DataReceived += Events_DataRecieved;
         }
 
         private void Events_DataRecieved(object? sender, SuperSimpleTcp.DataReceivedEventArgs e)
@@ -86,6 +86,12 @@ namespace ServerTCP
             {
                 textInfo.Document.Blocks.Add(new Paragraph(new Run($"{e.IpPort}: {Encoding.UTF8.GetString(e.Data)}{Environment.NewLine}")));
             }));
+        }
+
+        private void BTNStop_Click(object sender, RoutedEventArgs e)
+        {
+            if (server.IsListening)
+                server.Stop();
         }
     }
 }

@@ -15,12 +15,12 @@
             <RowDefinition Height="32*"/>
             <RowDefinition Height="55*"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="textIP" HorizontalAlignment="Left" Margin="90,24,0,0" TextWrapping="Wrap" Text="127.0.0.1:9000" IsReadOnly="True" VerticalAlignment="Top" Width="248" Grid.ColumnSpan="2"/>
-        <Label Content="Server" HorizontalAlignment="Left" Margin="37,18,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="BTNSend" Content="Send"  HorizontalAlignment="Left" Margin="89,128,0,0" VerticalAlignment="Top" Width="92" Click="BTNSend_Click" Grid.Row="1" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Margin="91,0,0,57" TextWrapping="Wrap"  VerticalAlignment="Bottom" Width="248" Height="20" Grid.ColumnSpan="2" Grid.Row="1"/>
-        <Label Content="Message" HorizontalAlignment="Left" Margin="21,97,0,0" VerticalAlignment="Top" Grid.Row="1"/>
-        <RichTextBox x:Name="textInfo" Margin="93,48,421,158" Grid.RowSpan="2" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5">
+        <TextBox x:Name="textIP" HorizontalAlignment="Left" Margin="92,24,0,0" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="111" Grid.ColumnSpan="2"/>
+        <Label Content="IP" HorizontalAlignment="Left" Margin="70,20,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BTNSend" Content="Send"  HorizontalAlignment="Left" Margin="89,179,0,0" VerticalAlignment="Top" Width="92" Click="BTNSend_Click" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Margin="88,0,0,111" TextWrapping="Wrap"  VerticalAlignment="Bottom" Width="248" Height="20" Grid.ColumnSpan="2" Grid.Row="1"/>
+        <Label Content="Message" HorizontalAlignment="Left" Margin="20,144,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <RichTextBox x:Name="textInfo" Margin="93,48,421,152" Grid.RowSpan="2" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5">
             <RichTextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -35,9 +35,12 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Button x:Name="BTNStart" Content="Start" HorizontalAlignment="Left" Margin="138,130,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click" Grid.Row="1" Grid.Column="1"/>
-        <ListBox x:Name="lstClientIP"  Margin="249,57,109,35" Grid.RowSpan="2" Grid.Column="1"/>
-        <Label Content="Client IP" HorizontalAlignment="Left" Margin="245,31,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="BTNStart" Content="Start" HorizontalAlignment="Left" Margin="171,22,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click" Grid.Column="1"/>
+        <ListBox x:Name="lstClientIP"  Margin="248,74,110,18" Grid.RowSpan="2" Grid.Column="1"/>
+        <Label Content="Client IP" HorizontalAlignment="Left" Margin="247,44,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBox x:Name="txtPort" HorizontalAlignment="Right" Margin="0,24,522,0" TextWrapping="Wrap" Text="9000"  VerticalAlignment="Top" Width="38" Grid.Column="1"/>
+        <Label Content="Port" HorizontalAlignment="Left" Margin="64,20,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="BTNStop" Content="Stop" HorizontalAlignment="Left" Margin="277,22,0,0" VerticalAlignment="Top" Width="92" Grid.Column="1" Click="BTNStop_Click"/>
 
     </Grid>
 </Window>
