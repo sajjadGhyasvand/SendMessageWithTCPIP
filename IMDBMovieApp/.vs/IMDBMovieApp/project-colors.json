@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b64cfb9a-5f47-4567-b73a-23894f67a86e": {
+      "ProjectGuid": "b64cfb9a-5f47-4567-b73a-23894f67a86e",
+      "DisplayName": "IMDBMovieApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
