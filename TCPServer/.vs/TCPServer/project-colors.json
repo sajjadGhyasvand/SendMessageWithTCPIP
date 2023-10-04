@@ -15,7 +15,27 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "a738fa23-57fe-41a3-a3a7-9f1f3db6fee3": {
+      "ProjectGuid": "a738fa23-57fe-41a3-a3a7-9f1f3db6fee3",
+      "DisplayName": "ThreadProgrammingTest",
+      "ColorIndex": 2
+    },
+    "33e72fd1-6070-48d9-a3a6-a1954d7392e7": {
+      "ProjectGuid": "33e72fd1-6070-48d9-a3a6-a1954d7392e7",
+      "DisplayName": "TCPClient",
+      "ColorIndex": 3
+    },
+    "f8676929-a0a1-450e-9095-b7876577f68e": {
+      "ProjectGuid": "f8676929-a0a1-450e-9095-b7876577f68e",
+      "DisplayName": "TestThreadProgramming",
+      "ColorIndex": 4
+    },
+    "a8136aa6-a24a-4206-93c3-82e2c0daee21": {
+      "ProjectGuid": "a8136aa6-a24a-4206-93c3-82e2c0daee21",
+      "DisplayName": "WinFormTestThreading",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 6
 }

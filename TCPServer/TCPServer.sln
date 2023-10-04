@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPClient", "TCPClient\TCPClient.csproj", "{33E72FD1-6070-48D9-A3A6-A1954D7392E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTCP", "ServerTCP\ServerTCP.csproj", "{86556D9C-9CF4-471B-BEBF-2EEECE96E7DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerTCP", "ServerTCP\ServerTCP.csproj", "{86556D9C-9CF4-471B-BEBF-2EEECE96E7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingTest", "ThreadingTest\ThreadingTest.csproj", "{DAF5CE7C-C7CC-4D0F-B5D0-C2495EB5E93B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{86556D9C-9CF4-471B-BEBF-2EEECE96E7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86556D9C-9CF4-471B-BEBF-2EEECE96E7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86556D9C-9CF4-471B-BEBF-2EEECE96E7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF5CE7C-C7CC-4D0F-B5D0-C2495EB5E93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF5CE7C-C7CC-4D0F-B5D0-C2495EB5E93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF5CE7C-C7CC-4D0F-B5D0-C2495EB5E93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF5CE7C-C7CC-4D0F-B5D0-C2495EB5E93B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
